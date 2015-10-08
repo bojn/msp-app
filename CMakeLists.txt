@@ -6,10 +6,12 @@ cmake_minimum_required(VERSION 2.8)
 include(cmake/initialize_git_submodule.cmake)
 
 #################################################
+# Initialize all submodules in the msp-app repo
+#################################################
+initialize_all_submodules()
+
+#################################################
 # Checkout and initialize GIT submodules
 #################################################
-initialize_git_submodule(NAME msp-lib BRANCH master)
-
-## Create project
-project(easy_angle_G33)
-
+add_subdirectory(easy-angle-3.2)
+add_subdirectory(easy-angle-3.3)

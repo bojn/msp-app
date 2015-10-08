@@ -1,3 +1,9 @@
 [submodule "msp-lib"]
 	path = msp-lib
 	url = https://github.com/bojn/msp-lib.git
+[submodule "easy-angle-3.3/embedded/msp-lib"]
+	path = easy-angle-3.3/embedded/msp-lib
+	url = https://github.com/bojn/msp-lib.git
+[submodule "easy-angle-3.2/embedded/msp-lib"]
+	path = easy-angle-3.2/embedded/msp-lib
+	url = https://github.com/bojn/msp-lib.git
